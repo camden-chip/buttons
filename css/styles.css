@@ -1,0 +1,64 @@
+button {
+	display: block;
+	margin-bottom: 40px;
+	cursor: pointer;
+}
+#one {
+	background-color: #2ecc71;
+	padding: 5px 15px;
+	border: none;
+	color: #ffffff;
+	cursor: pointer; /*mouse hand effect*/
+	outline: none;
+}
+#two {
+	background-color: #3498db;
+	border: none;
+	color: white;
+	border-radius: 3px;
+	border-bottom: 1px solid #blue;
+}
+#three {
+	background-color: #e74ec3;
+	color: white;
+	padding: 5px 15px;
+	border: none;
+	border-radius: 4px;
+	border-top: 1px solid #eb8d84;
+	border-bottom: 1px solid #c0392b;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+}
+#four {
+	 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,70a6d3+49,1089e5+100 */
+background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(left,  #1e5799 0%, #70a6d3 49%, #1089e5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #1e5799 0%,#70a6d3 49%,#1089e5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #1e5799 0%,#70a6d3 49%,#1089e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#1089e5',GradientType=1 ); /* IE6-9 */
+border: blue;
+color: white;
+border-radius: 3px;
+padding: 5px 15px;
+transition: all .2s;
+}
+#four:hover {
+	border-radius: 1px;
+	color: black;
+
+}
+#five {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a4b357+0,75890c+100;Olive+3D+%233 */
+background: #a4b357; /* Old browsers */
+background: -moz-linear-gradient(left,  #a4b357 0%, #75890c 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #a4b357 0%,#75890c 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #a4b357 0%,#75890c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a4b357', endColorstr='#75890c',GradientType=1 ); /* IE6-9 */
+border: none;
+color: white;
+padding: 5px 15px;
+border-radius: 10px;
+text-shadow: 0 -1px 0 grey;
+}
+#five i {
+	color: #333333;
+}
